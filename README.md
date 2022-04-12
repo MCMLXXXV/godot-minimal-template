@@ -1,4 +1,4 @@
-# Godot Minimal Project Template [![Made for Godot 3.3+][badge]][godot]
+# Godot Minimal Project Template [![Made for Godot 3.4+][badge]][godot]
 
 An absolutely minimal Godot project template for 2D games.
 
@@ -17,7 +17,7 @@ An absolutely minimal Godot project template for 2D games.
 ## Quick start guide
 
 1.  [Download][download] this repository and unzip the file containing the
-    template project folder; rename that folder.
+    template project folder; rename it.
 
 2.  Use Godot's Project Manager to import the template project.
 
@@ -26,9 +26,9 @@ An absolutely minimal Godot project template for 2D games.
 
 4.  Open the game project to start editing it.
 
->   **💡 Hint**: Keep your game projects tidy and let Godot's Project Manager
-    discover them for you, automatically. With the Godot Engine editor open,
-    find the "Editor Settings" under the "Editor" menu, scroll through
+>   **💡 Hint**: Keep your game projects organized and let Godot's Project
+    Manager discover them for you, automatically. With the Godot Engine editor
+    open, find the "Editor Settings" under the "Editor" menu, scroll through
     "Filesystem > Directories" on the left-side panel and pick a folder of your
     choice under "Autoscan Project Path".
 
@@ -46,5 +46,5 @@ to get to the interesting stuff faster.
 
 
 [godot]: https://godotengine.org/
-[badge]: https://flat.badgen.net/badge/made%20for/Godot%203.3%2b/478cbf
+[badge]: https://flat.badgen.net/badge/made%20for/Godot%203.4%2b/478cbf
 [download]: https://github.com/MCMLXXXV/godot-minimal-template/archive/refs/heads/main.zip
