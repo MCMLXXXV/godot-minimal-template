@@ -1,23 +1,28 @@
-# Godot Minimal Project Template [![Made for Godot 3.4+][badge]][godot]
+# Godot Minimal Project Template [![Made for Godot 4.0+][badge]][godot]
 
 An absolutely minimal Godot project template for 2D games.
+
+>   **ℹ Note**: This is an _work in progress_, upgraded version for Godot 4.0
+    (beta). The Godot 3 version of this template is available under the
+    `godot-3` development branch.
 
 
 ## Project Settings
 
--   Screen resolution at 854x480 (≈16:9 aspect ratio)
--   Graphics mode: `GLES2`
--   Window stretch mode set as `2D` and aspect set to `Keep`
--   Textures imported using the '2D Pixel' preset by default
--   Node naming style set as `snake_case`
+-   Viewport dimensions at 854x480 (≈16:9 aspect ratio)
+-   Window stretch mode set as `canvas_items` and aspect set to `keep`
+-   Sane defaults for 2D rendering:
+    -   Textures imported using the `2D` preset by default
+    -   Default texture filter set to `Nearest` on Project Settings
+    -   2D pixel snapping options enabled on Project Settings
 -   No application icon ─ bring yours if you need one!
 -   Includes a main scene with an empty script.
 
 
-## Quick start guide
+## Quick setup guide
 
-1.  [Download][download] this repository and unzip the file containing the
-    template project folder; rename it.
+1.  [Download][download] this repository, unzip the file containing the
+    template project folder and rename it to your liking.
 
 2.  Use Godot's Project Manager to import the template project.
 
@@ -46,5 +51,5 @@ help me get to the interesting stuff faster.
 
 
 [godot]: https://godotengine.org/
-[badge]: https://flat.badgen.net/badge/made%20for/Godot%203.4%2b/478cbf
+[badge]: https://flat.badgen.net/badge/made%20for/Godot%204.0%2b/478cbf
 [download]: https://github.com/MCMLXXXV/godot-minimal-template/archive/refs/heads/main.zip
