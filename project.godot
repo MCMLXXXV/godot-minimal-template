@@ -19,8 +19,8 @@ config/features=PackedStringArray("4.0")
 
 [debug]
 
-gdscript/warnings/return_value_discarded=false
-gdscript/warnings/unused_argument=false
+gdscript/warnings/unused_parameter=0
+gdscript/warnings/return_value_discarded=0
 
 [display]
 
@@ -56,10 +56,3 @@ texture={
 2d/snap/snap_2d_transforms_to_pixel=true
 2d/snap/snap_2d_vertices_to_pixel=true
 textures/canvas_textures/default_texture_filter=0
-quality/driver/driver_name="GLES2"
-vram_compression/import_etc=true
-vram_compression/import_etc2=false
-
-[world]
-
-2d/cell_size=64
