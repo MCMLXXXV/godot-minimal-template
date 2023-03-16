@@ -8,9 +8,6 @@
 
 config_version=5
 
-_global_script_classes=[]
-_global_script_class_icons={}
-
 [application]
 
 config/name="Godot Minimal Project Template"
@@ -20,21 +17,18 @@ config/features=PackedStringArray("4.0")
 [debug]
 
 gdscript/warnings/unused_parameter=0
-gdscript/warnings/return_value_discarded=0
 
 [display]
 
-window/size/viewport_width=854
-window/size/viewport_height=480
 window/size/resizable=false
 window/stretch/mode="canvas_items"
 
 [importer_defaults]
 
 texture={
-"compress/bptc_ldr": 0,
 "compress/channel_pack": 0,
 "compress/hdr_compression": 1,
+"compress/high_quality": false,
 "compress/lossy_quality": 0.7,
 "compress/mode": 0,
 "compress/normal_map": 0,

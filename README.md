@@ -2,21 +2,17 @@
 
 An absolutely minimal Godot project template for 2D games.
 
->   **ℹ Note**: This is an _work in progress_, upgraded version for Godot 4.0
-    (beta). The Godot 3 version of this template is available under the
-    `godot-3` development branch.
-
 
 ## Project Settings
 
--   Viewport dimensions at 854x480 (≈16:9 aspect ratio)
--   Window stretch mode set as `canvas_items` and aspect set to `keep`
--   Sane defaults for 2D rendering:
+-   Default viewport dimensions at 1152x648 (16:9 aspect ratio)
+-   Window stretch mode set to `canvas_items` and aspect set to `keep`
+-   Sane defaults for pixel-art rendering:
     -   Textures imported using the `2D` preset by default
-    -   Default texture filter set to `Nearest` on Project Settings
+    -   Texture filter configured to `Nearest` on Project Settings
     -   2D pixel snapping options enabled on Project Settings
--   No application icon ─ bring yours if you need one!
--   Includes a main scene with an empty script.
+-   No application icon – bring yours if you need one!
+-   Includes an empty main scene with an attached empty script.
 
 
 ## Quick setup guide
@@ -27,15 +23,15 @@ An absolutely minimal Godot project template for 2D games.
 2.  Use Godot's Project Manager to import the template project.
 
 3.  Select the newly imported project, typing "minimal" in the filter field if
-    needed, and rename it to change the game title.
+    needed, and click "Rename" to change its title.
 
 4.  Open the game project to start editing it.
 
 >   **💡 Hint**: Keep your game projects organized and let Godot's Project
     Manager discover them for you, automatically. With the Godot Engine editor
-    open, find the "Editor Settings" under the "Editor" menu, scroll through
-    "Filesystem > Directories" on the left-side panel and pick a folder of your
-    choice under "Autoscan Project Path".
+    open, find the "Editor Settings" under the "Editor" menu, scroll to
+    "Filesystem > Directories" on the left-side panel and pick the folders of
+    your choice under "Autoscan Project Path" and "Default Project Path".
 
 
 ## Motivation
